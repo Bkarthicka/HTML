@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Men's</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://kit.fontawesome.com/3b161c540c.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="men.css">
+    <script src="men.js"></script>
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light cus-nav-color">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo03"
+            aria-controls="navbarTogglerDemo03"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand" href="#">ShopEase</a>
+          <div class="collapse navbar-collapse " id="navbarTogglerDemo03">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item p-2">
+                <span>
+                  <img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/login-rounded-right--v1.png" alt="login-rounded-right--v1"/><a class="nav-link" href="login.html">Login</a>
+                </span>              
+              </li>
+              <li class="nav-item p-2">              
+                <span>
+                  <img width="30" height="30" src="https://img.icons8.com/ios-filled/50/shopping-cart.png" alt="shopping-cart"/><a class="nav-link" href="login.html" style="text-decoration: none;">Cart</a>
+                </span>
+              </li>
+              <li class="nav-item p-2">
+                <span>
+                  <img width="25" height="25" src="https://img.icons8.com/ios-filled/50/home.png" alt="home"/><a class="nav-link" href="index.html">HOME</a>
+                </span>
+              </li>
+              <li class="nav-item p-2">              
+                <span>
+                  <img width="25" height="25" src="https://img.icons8.com/ios-filled/50/about.png" alt="about"/><a class="nav-link" href="#about us" style="text-decoration: none;">About us</a>
+                </span>
+              </li>
+              <li class="nav-item p-2">
+                <a class="nav-link" href="men.html" style="font-weight: bold; color: black;">MEN</a>
+              </li>
+              <li class="nav-item p-2">
+                <a class="nav-link" href="women.html">WOMEN</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <!--live img -->
+   <div class="container-fluid live-img">
+        <img src="pic/live.webp" alt="">
+    </div>
+    <!-- carousel -->
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">        
+        <div class="carousel-inner">
+          <div class="carousel-item active cust-banner">
+            <img src="pic/banner1.avif" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item cust-banner">
+            <img src="pic/banner2.avif" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item cust-banner">
+            <img src="pic/banner3.avif" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item cust-banner">
+            <img src="pic/banner4.avif" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"             data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+    </div>
+    <!-- product card -->
+    <div class="sect-spacer">
+      <div class="container container-cust">  
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+              <div class="card">  
+                <div class="imgBx">  
+                  <img src="pic/cardshirt.webp" alt="shirt">  
+                </div>  
+                <div class="contentBx">  
+                  <h2>Shirt</h2>  
+                  <div class="size">  
+                    <h3>Size :</h3>  
+                    <span>XS</span>  
+                    <span>S</span>  
+                    <span>M</span>  
+                    <span>L</span>  
+                  </div>  
+                  <div class="color">  
+                    <h3>Color :</h3>  
+                    <span></span>  
+                    <span></span>  
+                    <span></span>  
+                  </div>  
+                  <a href="#goto-shirt">Explore more</a>  
+                </div>  
+              </div> 
+            </div>
+            <div class="col-md-3">
+              <div class="card">  
+                <div class="imgBx">  
+                  <img src="pic/cardpant.webp" alt="pant">  
+                </div>  
+                <div class="contentBx">  
+                  <h2>Pant</h2>  
+                  <div class="size">  
+                    <h3>Size :</h3>  
+                    <span>XS</span>  
+                    <span>S</span>  
+                    <span>M</span>  
+                    <span>L</span>  
+                  </div>  
+                  <div class="color">  
+                    <h3>Color :</h3>  
+                    <span></span>  
+                    <span></span>  
+                    <span></span>  
+                  </div>  
+                  <a href="#goto-pant">Explore more</a>  
+                </div>  
+              </div> 
+            </div>
+            <div class="col-md-3">
+              <div class="card">  
+                <div class="imgBx">  
+                  <img src="pic/cardsuit.jpg" alt="suit">  
+                </div>  
+                <div class="contentBx">  
+                  <h2>Suit</h2>  
+                  <div class="size">  
+                    <h3>Size :</h3>  
+                    <span>XS</span>  
+                    <span>S</span>  
+                    <span>M</span>  
+                    <span>L</span>  
+                  </div>  
+                  <div class="color">  
+                    <h3>Color :</h3>  
+                    <span></span>  
+                    <span></span>  
+                    <span></span>  
+                  </div>  
+                  <a href="#">Explore more</a>  
+                </div>  
+              </div> 
+            </div>
+            <div class="col-md-3">
+              <div class="card">  
+                <div class="imgBx">  
+                  <img src="pic/cardhoodie.webp" alt="hoodie">  
+                </div>  
+                <div class="contentBx">  
+                  <h2>Hoodie</h2>  
+                  <div class="size">  
+                    <h3>Size :</h3>  
+                    <span>XS</span>  
+                    <span>S</span>  
+                    <span>M</span>  
+                    <span>L</span>  
+                  </div>  
+                  <div class="color">  
+                    <h3>Color :</h3>  
+                    <span></span>  
+                    <span></span>  
+                    <span></span>  
+                  </div>  
+                  <a href="#">Explore more</a>  
+                </div>  
+              </div> 
+            </div>
+          </div>
+        </div> 
+      </div>
+    </div>  
+    <div class="cust-title">
+      <h1>Shop by Brands</h1>
+    </div>
+    <!-- card shirt-->
+    <div class="sect-spacer" id="goto-shirt">
+      <div class="container cust-whole">
+        <div class="row p-3">
+          <div class="col-md-3">
+            <div class="card" style="width: 15rem;">
+              <img src="pic/s1.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Allen Solly</h5>
+                <p class="card-text"><h6>Men's Regular Fit</h6></p>
+                <a href="#" class="btn btn-primary">ADD TO CART</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card" style="width: 15rem;">
+              <img src="pic/s2.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">BOSS</h5>
+                <p class="card-text"><h6>Men's Slim Fit</h6></p>
+                <a href="#" class="btn btn-primary" >ADD TO CART</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card" style="width: 15rem;">
+              <img src="pic/s3.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Balenciaga</h5>
+                <p class="card-text"><h6>Men's Regular Fit</h6></p>
+                <a href="#" class="btn btn-primary" >ADD TO CART</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card" style="width: 15rem;">
+              <img src="pic/s4.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Ralph Lauren</h5>
+                <p class="card-text"><h6>Men's Slim Fit</h6></p>
+                <a href="#" class="btn btn-primary" >ADD TO CART</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row p-3">
+          <div class="col-md-3">
+            <div class="card" style="width: 15rem;">
+              <img src="pic/s5.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Louis Philippe</h5>
+                <p class="card-text"><h6>Men's Regular Fit</h6></p>
+                <a href="#" class="btn btn-primary" >ADD TO CART</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card" style="width: 15rem;">
+              <img src="pic/s6.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">U.S.Polo</h5>
+                <p class="card-text"><h6>Men's Slim Fit</h6></p>
+                <a href="#" class="btn btn-primary" >ADD TO CART</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card" style="width: 15rem;">
+              <img src="pic/s7.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Jack&Jones</h5>
+                <p class="card-text"><h6>Men's Regular Fit</h6></p>
+                <a href="#" class="btn btn-primary" >ADD TO CART</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card" style="width: 15rem;">
+              <img src="pic/s8.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Ralph Lauren</h5>
+                <p class="card-text"><h6>Men's Slim Fit</h6></p>
+                <a href="#" class="btn btn-primary" >ADD TO CART</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- card pant -->
+    <div class="sect-spacer" id="goto-pant">
+      <div class="container cust-whole">
+        <div class="row p-3">
+          <div class="col-md-3">
+            <div class="card" style="width: 15rem;">
+              <img src="pic/p1.webp" class="card-img-top card-pant" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Calvin Klein</h5>
+                <p class="card-text"><h6>Men's Regular Fit</h6></p>
+                <a href="#" class="btn btn-primary" >ADD TO CART</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card" style="width: 15rem;">
+              <img src="pic/p2.webp" class="card-img-top card-pant" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Levi's</h5>
+                <p class="card-text"><h6>Men's Slim Fit</h6></p>
+                <a href="#" class="btn btn-primary" >ADD TO CART</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card" style="width: 15rem;">
+              <img src="pic/p3.webp" class="card-img-top card-pant" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Diesel</h5>
+                <p class="card-text"><h6>Men's Regular Fit</h6></p>
+                <a href="#" class="btn btn-primary" >ADD TO CART</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card" style="width: 15rem;">
+              <img src="pic/p4.webp" class="card-img-top card-pant" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Kappa</h5>
+                <p class="card-text"><h6>Men's Slim Fit</h6></p>
+                <a href="#" class="btn btn-primary" >ADD TO CART</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row p-3">
+          <div class="col-md-3">
+            <div class="card" style="width: 15rem;">
+              <img src="pic/p5.webp" class="card-img-top card-pant" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Bench</h5>
+                <p class="card-text"><h6>Men's Regular Fit</h6></p>
+                <a href="#" class="btn btn-primary" >ADD TO CART</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card" style="width: 15rem;">
+              <img src="pic/p6.webp" class="card-img-top card-pant" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Lee</h5>
+                <p class="card-text"><h6>Men's Slim Fit</h6></p>
+                <a href="#" class="btn btn-primary" >ADD TO CART</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card" style="width: 15rem;">
+              <img src="pic/p7.webp" class="card-img-top card-pant" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Wrangler</h5>
+                <p class="card-text"><h6>Men's Regular Fit</h6></p>
+                <a href="#" class="btn btn-primary" >ADD TO CART</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card" style="width: 15rem;">
+              <img src="pic/p8.webp" class="card-img-top card-pant" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Tommy</h5>
+                <p class="card-text"><h6>Men's Slim Fit</h6></p>
+                <a href="#" class="btn btn-primary" >ADD TO CART</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ShopEase</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://kit.fontawesome.com/3b161c540c.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="index.html" />
+    <link rel="stylesheet" href="common.css" />
+    <script src="landinpg.js"></script>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light cus-nav-color">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo03"
+          aria-controls="navbarTogglerDemo03"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <span>
+          <img width="50" height="50" src="pic/nlogo.png" alt="home"/><a class="nav-link" href="index.html.html" style="text-decoration: none;">ShopEase</a>
+        </span>
+        <div class="collapse navbar-collapse " id="navbarTogglerDemo03">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item p-2">
+              <span>
+                <img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/login-rounded-right--v1.png" alt="login-rounded-right--v1"/><a class="nav-link" href="login.html">Login</a>
+              </span>              
+            </li>
+            <li class="nav-item p-2">
+              <span>
+                <img width="25" height="25" src="https://img.icons8.com/ios-filled/50/home.png" alt="home"/><a class="nav-link" href="index.html.html" style="font-weight: bold; color: black;">HOME</a>
+              </span>
+            </li>
+            <li class="nav-item p-2">              
+              <span>
+                <img width="30" height="30" src="https://img.icons8.com/ios-filled/50/shopping-cart.png" alt="shopping-cart"/><a class="nav-link" href="login.html" style="text-decoration: none;">Cart</a>
+              </span>
+            </li>
+            <li class="nav-item p-2">              
+              <span>
+                <img width="25" height="25" src="https://img.icons8.com/ios-filled/50/about.png" alt="about"/><a class="nav-link" href="#about us" style="text-decoration: none;">About us</a>
+              </span>
+            </li>
+            <li class="nav-item p-2">
+              <a class="nav-link" href="men.html">MEN</a>
+            </li>
+            <li class="nav-item p-2">
+              <a class="nav-link" href="women.html">WOMEN</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--banner carousel -->
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active cust-banner">
+          <img src="pic/one.jpg" class="d-block w-100" alt="banner 1" />
+        </div>
+        <div class="carousel-item cust-banner">
+          <img src="pic/men.jpg" class="d-block w-100" alt="banner 3" />
+        </div>
+        <div class="carousel-item cust-banner">
+          <img src="pic/img3.avif" class="d-block w-100" alt="banner 2" />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- banner -->
+    <div class="sect-spacer">
+      <div class="banner-img">
+        <img src="pic/banner.avif" class="banner-img">
+      </div> 
+    </div>   
+    <!-- card carousel -->
+    <div class="sect-spacer cust-card-margin">
+      <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-bs-ride="carousel"
+      data-interval="100"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="cust-offer">
+          <h1>Top Brands</h1>
+        </div>
+        <div class="carousel-item active cust-card">
+          <div class="row">
+              <div class="col-md-4">
+                <div class="card">
+                  <img src="pic/versace.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">VERSACE</p>
+                  </div>
+                </div> 
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <img src="pic/prada.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">PRADA</p>
+                  </div>
+                </div> 
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <img src="pic/burberry.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">BURBERRY</p>
+                  </div>
+                </div> 
+              </div>
+          </div>
+        </div>
+        <div class="carousel-item cust-card">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card">
+                <img src="pic/puma.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">PUMA</p>
+                </div>
+              </div> 
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <img src="pic/LV.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">LOUIS VUITTON</p>
+                </div>
+              </div> 
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <img src="pic/gucci.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">GUCCI</p>
+                </div>
+              </div> 
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item cust-card">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card">
+                <img src="pic/adidas.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">ADIDAS</p>
+                </div>
+              </div> 
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <img src="pic/calvin.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">CALVIN KLEIN</p>
+                </div>
+              </div> 
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <img src="pic/H&M.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">H&M</p>
+                </div>
+              </div> 
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <!-- container sale-->
+  <div class="sect-spacer">
+    <div class="container-fluid cust-offer p-3">
+      <div class="cust-sale"><h1>New Year Sale</hl></div>
+      <h2>Exclusive sale on diffrent brands</h2>
+        <div class="cust-sale"><h3>Extra offer upto <b>5%</b></h3></div>
+      <h6>for exclusive member</h6>
+    </div>
+  </div>
+  <!--whole container-->
+  <div class="container-fluid cust-whole">
+    <div class="row g-3">
+      <div class="col-md-4 cust-container-card ">
+        <div class="container cust-in-con ">
+          <h4 class="p-2">Today's Deal</h4>
+          <div class="row">
+            <div class="col">
+              <div class="card">
+                <a href="men.html#goto-shirt"><img src="pic/card1.webp" class="card-img-top card-img" alt="..."></a>
+                <div class="card-body">
+                  <p class="card-text">Shirt </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="pic/kurta.webp" class="card-img-top card-img" alt="...">
+                <div class="card-body">
+                  <p class="card-text">kurti</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="pic/saree.jpeg" class="card-img-top card-img" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Saree</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <a href="men.html#goto-pant"><img src="pic/pants.jpeg" class="card-img-top card-img" alt="..."></a>
+                <div class="card-body">
+                  <p class="card-text">Pant</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 cust-container-card">
+        <div class="container cust-in-con">
+          <h4 class="p-2">Keep waching</h4>
+          <div class="row">
+            <div class="col">
+              <div class="card">
+                <a href="men.html"><img src="pic/hoodie.jpg" class="card-img-top card-img" alt="..."></a>
+                <div class="card-body">
+                  <p class="card-text">Hoodie</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="pic/gown.webp" class="card-img-top card-img" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Gown</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="pic/jumpsuit.jpg" class="card-img-top card-img" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Jumpsuit</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <a href="men.html"><img src="pic/suits.jpg" class="card-img-top card-img" alt="..."></a>
+                <div class="card-body">
+                  <p class="card-text">Suit</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="container cust-in-card">
+          <div class="row">
+            <div class="col-md-6">
+              <h4 class="p-2">Trending</h4>
+              <div class="card" style="width: 18rem;">
+                <img src="pic/3.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Latest collection</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+   <!-- card -->
+    <div class="sect-spacer">
+      <div class="container-fluid">
+        <h3 class="cust-container-text">Explore more</h3>
+        <div class="row g-3 cust-explore">
+          <div class="col-md-3">
+            <div class="card">
+              <a href="men.html"><img src="pic/mens.jpeg" class="card-img-top cust-ex-card" alt="..." /></a>
+              <div class="card-body">
+                <p class="card-text fw-bold text-center" >Men</p>
+                <a href="men.html"><button type="button" class="btn btn-outline-dark cust-button">see more</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <img src="pic/women.jpg" class="card-img-top cust-ex-card" alt="..." />
+              <div class="card-body">
+                <p class="card-text fw-bold text-center">Women</p>
+                <a href="men.html"><button type="button" class="btn btn-outline-dark cust-button">see more</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <img src="pic/eth.jpeg" class="card-img-top cust-ex-card" alt="..." />
+              <div class="card-body">
+                <p class="card-text fw-bold text-center">Ethnic</p>
+                <a href="men.html"><button type="button" class="btn btn-outline-dark cust-button">see more</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <img src="pic/party.jpg" class="card-img-top cust-ex-card" alt="..." />
+              <div class="card-body">
+                <p class="card-text fw-bold text-center">Party wear</p>
+                <a href="men.html"><button type="button" class="btn btn-outline-dark cust-button">see more</button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+    <div class="sect-spacer">    
+        <footer class="footer">
+          <div class="container row cust-foot-con">
+            <div class="footer-col">
+              <h4 id="about us">about us</h4>
+              <p>
+                At ShopEase, we believe that fashion is not just about clothing; it's a form of self-expression, a way to showcase your unique style to the world.
+              </p>
+            </div>
+            <div class="footer-col">
+              <h4 >company</h4>
+              <ul>
+                <li><a href="#">our services</a></li>
+                <li><a href="#">privacy policy</a></li>
+                <li><a href="banner.html">visit website</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>get help</h4>
+              <ul>
+                <li><a href="login.html">login</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">shipping</a></li>
+                <li><a href="#">payment</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>connect with us</h4>
+              <div class="social-links">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+        </footer>
+    </div>
+  </body>
+</html>

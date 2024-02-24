@@ -1,0 +1,280 @@
+body{
+	background-color: rgb(220, 219, 219);
+}
+.sect-spacer
+{
+    padding: 40px 0px;
+}
+.cus-nav-color{
+	background-color: #A0D8F1;
+}
+.nav-link{
+	display: inline-block;
+	color: white;
+}
+.cust-banner img{
+    width: 100vh;
+    height: 80vh;
+}
+
+* {  
+	padding: 0;  
+	margin: 0;  
+	font-family: 'Poppins', sans-serif;  
+  }  
+  
+  .container-cust {  
+	position: relative;  
+  }  
+  .container-cust .card {  
+	position: relative;  
+	width: 260px;  
+	height: 440px;  
+	background: #757474;  
+	border-radius: 20px;  
+	overflow: hidden;  
+  }  
+  /* .container-cust .card:before {  
+	content: "";  
+	position: absolute;  
+	top: 0;  
+	left: 0;  
+	width: 100%;  
+	height: 100%;  
+	background: #1BBFE9;  
+	clip-path: circle(150px at 80% 20%);  
+	transition: 0.5s ease-in-out;  
+  }   */
+  /* .container-cust .card:hover:before {  
+	clip-path: circle(300px at 80% -20%);  
+  }   */
+  .container-cust .card:after {  
+	content: "ShopEase";  
+	position: absolute;  
+	top: 45%;  
+	left: -20%;  
+	font-size: 5em;  
+	font-weight: 800;  
+	font-style: italic;  
+	color: rgba(255, 255, 255, 0.04);  
+  }  
+  .container-cust .card .imgBx {  
+	position: absolute;  
+	top: 50%;  
+	transform: translateY(-50%);  
+	z-index: 1000;  
+	width: 100%;  
+	height: 100%;  
+	transition: .5s;  
+  }  
+  .container-cust .card:hover .imgBx {  
+	top: 0%;  
+	transform: translateY(-25%);  
+	/* bug */  
+  }  
+  .container-cust .card .imgBx img {  
+	position: absolute;  
+	top: 40%;  
+	left: 50%;  
+	transform: translate(-50%, -50%);  
+	width: 220px;
+	height: 270px;  
+	border-radius: 2px;
+  }  
+  .container-cust .card .contentBx {  
+	position: absolute;  
+	bottom: 0;  
+	width: 100%;  
+	height: 100px;  
+	text-align: center;  
+	transition: 1s;  
+	z-index: 90;  
+  }  
+  .container-cust .card:hover .contentBx {  
+	height: 210px;  
+  }  
+  .container-cust .card .contentBx h2 {  
+	position: relative;  
+	font-weight: 600;  
+	letter-spacing: 1px; 
+	color: #fff;  
+  }  
+  .container-cust .card .contentBx .size,  
+  .container-cust .card .contentBx .color {  
+	display: flex;  
+	justify-content: center;  
+	align-items: center;  
+	padding: 8px 20px;  
+	transition: .5s;  
+	opacity: 0;  
+	visibility: hidden;  
+  }  
+  .container-cust .card:hover .contentBx .size {  
+	opacity: 1;  
+	visibility: visible;  
+	transition-delay: .5s;  
+  }  
+  .container-cust .card:hover .contentBx .color {  
+	opacity: 1;  
+	visibility: visible;  
+	transition-delay: .6s;  
+  }  
+  .container-cust .card .contentBx .size h3,  
+  .container-cust .card .contentBx .color h3 {  
+	color: white;  
+	font-weight: 300;  
+	font-size: 14px;  
+	text-transform: uppercase;  
+	letter-spacing: 2px;  
+	margin-right: 10px;  
+  }  
+  .container-cust .card .contentBx .size span {  
+	width: 26px;  
+	height: 26px;  
+	text-align: center;  
+	line-height: 26px;  
+	font-size: 14px;  
+	display: inline-block;  
+	color: #111;  
+	background: #fff;  
+	margin: 0 5px;  
+	transition: .5s;  
+	color: #111;  
+	border-radius: 4px;  
+	cursor: pointer;  
+  }  
+  .container-cust .card .contentBx .size span:hover { /* other bug */  
+	background: #B90000;  
+  }  
+  .container-cust .card .contentBx .color span {  
+	width: 20px;  
+	height: 20px;  
+	/* background: #ff0;   */
+	border-radius: 50%;  
+	margin: 0 5px;  
+	cursor: pointer;  
+  }  
+  .container-cust .card .contentBx .color span:nth-child(2) {  
+	 background: #1B2FE9;  
+  }  
+  .container-cust .card .contentBx .color span:nth-child(3) {  
+	 background: #e1afae;  
+  }  
+  .container-cust .card .contentBx .color span:nth-child(4) {  
+	 background: #ffe4c4;  
+  }  
+  .container-cust .card .contentBx a {  
+	display: inline-block;  
+	padding: 10px 20px;  
+	background: #fff;  
+	border-radius: 4px;  
+	margin-top: 10px;  
+	text-decoration: none;  
+	font-weight: 600;  
+	color: #111;  
+	opacity: 0;  
+	transform: translateY(50px);  
+	transition: .5s;  
+  }  
+  .container-cust .card:hover .contentBx a {  
+	opacity: 1;  
+	transform: translateY(0px);  
+	transition-delay: .7s;  
+  }  
+  /* product card */
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card {
+  font-family: Poppins, sans-serif;
+  height: 100vh;
+  color: #dedede;
+  background-color: hsl(210, 10%, 8%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+	margin: 50px;
+  width: 280px;
+  aspect-ratio: 1 / 1.3;
+  padding: 24px;
+  background-color: hsl(210, 20%, 15%);
+  border-radius: 24px;
+  box-shadow: 0px 0px 20px -1.5px hsl(0 0% 0% / 0.5);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.card > .card-image {
+  width: 100%;
+  height: 70%;
+  transition: 0.5s ease;
+}
+
+.card-content {
+  margin-top: auto;
+}
+
+.card-image > img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  border-radius: 16px;
+}
+.card:hover > .card-image {
+  translate: 0 -14px;
+}
+
+.card-content .sub-title {
+  color: #ccc;
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+.card-content .main-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-content > .icon {
+  width: 32px;
+  height: 32px;
+  rotate: -45deg;
+  transition: 0.35s ease;
+}
+.card:hover .icon {
+  rotate: 0deg;
+  color: #7988d2;
+}
+
+.main-content > .title {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  inset: 1px;
+  background-color: hsl(210, 14%, 80%);
+  z-index: -1;
+  border-radius: inherit;
+  transition: all 0.35s ease;
+}
+.card:hover::before {
+  transform: rotate(10deg);
+  box-shadow: 0px 0px 20px -5px #000;
+}
